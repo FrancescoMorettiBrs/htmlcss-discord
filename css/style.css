@@ -55,6 +55,7 @@ p {
 
 .purple-font {
   color: #7289da;
+  margin-top: 40px;
 }
 
 .box-white {
@@ -62,7 +63,7 @@ p {
   text-align: right;
   padding: 10px 15px;
   border-radius: 20px;
-  background-color:white;
+  background-color: white;
   font-size: 14px;
 }
 
@@ -90,10 +91,6 @@ p {
   background-image: url(../img/jumbo.png);
   background-size: cover;
   background-position: center;
-}
-
-.bg-white {
-  background-color: #ffffff;
 }
 
 .bg-gray {
@@ -172,7 +169,6 @@ p {
 /* quarta sezione */
 .flex-container-main-4 {
   display: flex;
-  /* height: 800px; */
 }
 
 .introduction-2 {
@@ -188,20 +184,17 @@ p {
   /* height: 1000px; */
   align-content: center;
   /* debug */
-  background-color:  #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 /* quinta sezione */
 .main-bg-black {
   background-color: #23272a;
   align-content: center;
-  height: 500px;
 }
 
 .left-col-pink {
   width: 40%;
-  /* debug */
-  background-color: #f48b8b;
 }
 
 .right-col-green {
@@ -211,9 +204,30 @@ p {
 
 .col-25 {
   width: 25%;
-  /* debug */
-  background-color: #20b2aa;
-  border-right: 2px dashed #ffffff;
+  margin-right: 200px;
+}
+
+.italian-flag {
+  width: 30px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.social-network {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+}
+
+.social-network i {
+  font-size: 20px;
+  color: white;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 /* Footer */
@@ -228,23 +242,30 @@ p {
 .flex-container-footer {
   display: flex;
   justify-content: space-between;
+  align-content: center;
   height: 50px;
   align-items: center;
-  /* debug */
-  border: 2px solid #000000;
-  background-color: #7fffd4;
 }
 
-.logo-footer {
-  padding: 3px;
-  /* debug */
-  background-color: #ffb6c1;
-  border: 2px dashed black;
+.flex-container-footer-1 {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.button-footer {
-  padding: 3px;
-  /* debug */
-  background-color: #ffb6c1;
-  border: 2px dashed black;
+.ul-footer li {
+  margin-top: 30px;
+  text-decoration: none;
+  list-style: none;
 }
+
+.box-purple-footer {
+  align-items: center;
+  text-align: right;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #7289da;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
