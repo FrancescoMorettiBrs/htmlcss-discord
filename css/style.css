@@ -95,6 +95,7 @@ p {
 
 .bg-gray {
   background-color: #f6f6f6;
+  /* background-image: url(../img/wave.svg); */
 }
 
 /* Header */
@@ -129,7 +130,6 @@ p {
 
 .flex-container-main {
   display: flex;
-  height: 450px;
 }
 
 .link-access {
@@ -151,8 +151,8 @@ p {
 }
 
 .main-bg {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   align-content: center;
   align-items: center;
 }
@@ -181,7 +181,6 @@ p {
 }
 
 .main-bg-gray-2 {
-  /* height: 1000px; */
   align-content: center;
   /* debug */
   background-color: #f6f6f6;
@@ -232,9 +231,8 @@ p {
 
 /* Footer */
 .footer-bg {
-  align-content: flex-end;
-  height: 80px;
-  margin-top: 3px;
+  margin-top: 1px;
+  padding: 20px;
   /* debug */
   background-color: #23272a;
 }
@@ -243,8 +241,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  height: 50px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .flex-container-footer-1 {
@@ -268,4 +265,3 @@ p {
   font-size: 14px;
   margin-bottom: 10px;
 }
-
